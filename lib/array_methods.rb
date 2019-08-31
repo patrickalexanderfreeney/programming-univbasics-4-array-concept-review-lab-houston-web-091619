@@ -21,3 +21,5 @@ end
       return counter 
   end
 en
+
+array.index(value_to_find)
