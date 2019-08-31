@@ -1,6 +1,7 @@
 def find_element_index(array, value_to_find)
   array.include?(value_to_find) do |value|
     if value == value_to_find
+    return array[index]
     end
   end
 end
