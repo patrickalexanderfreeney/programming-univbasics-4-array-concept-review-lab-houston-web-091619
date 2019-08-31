@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.include? do |value|
+  array.include?(value_to_find) do |value|
     if value == value_to_find
     end
   end
